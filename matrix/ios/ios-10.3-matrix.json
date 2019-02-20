@@ -1,0 +1,35 @@
+{
+    "tests": [
+      {
+        "test": ["ios"],
+        "device": [
+          "iPhone Simulator",
+          "iPad Simulator",
+          "iPad Air 2 Simulator",
+          "iPad Air Simulator",
+          "iPad Pro (12.9 inch) Simulator",
+          "iPad Pro (9.7 inch) Simulator",
+          "iPad Simulator",
+          "iPhone 5 Simulator",
+          "iPhone 5s Simulator",
+          "iPhone 6 Plus Simulator",
+          "iPhone 6 Simulator",
+          "iPhone 6s Plus Simulator",
+          "iPhone 6s Simulator",
+          "iPhone 7 Plus Simulator",
+          "iPhone 7 Simulator",
+          "iPhone SE Simulator",
+          "iPhone Simulator"
+        ],
+        "platform": "iOS",
+        "version": ["10.3"],
+        "backendVersion": ["1.9.1"],
+        "browser": "Safari",
+        "testName": "iOS_10.3"
+      }
+    ],
+    "config": "prod",
+    "build": "appium-smoke-%t",
+    "processes": 30
+  }
+  

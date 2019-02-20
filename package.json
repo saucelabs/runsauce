@@ -1,5 +1,5 @@
 {
-  "name": "runsauce",
+  "name": "runsauce2",
   "description": "Run a simple test on Sauce Labs",
   "tags": [
     "automation",
@@ -11,7 +11,7 @@
     "firefoxos",
     "testing"
   ],
-  "version": "2.2.0",
+  "version": "2.3.1",
   "author": "jlipps@gmail.com",
   "repository": {
     "type": "git",
@@ -42,9 +42,10 @@
     "optimist": "~0.6.0",
     "prompt": "^1.0.0",
     "request": "^2.53.0",
+    "request-promise": "^4.2.4",
     "should": "^11.2.1",
     "stats-lite": "^2.0.4",
-    "wd": "^1.2.0"
+    "wd": "^1.11.4"
   },
   "scripts": {
     "test": "mocha test/"

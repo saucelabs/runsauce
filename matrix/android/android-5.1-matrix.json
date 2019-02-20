@@ -1,0 +1,19 @@
+{
+    "tests": [
+      {
+        "test": ["android_hybrid", "android"],
+        "device": [
+            "Android Emulator",
+            "Android GoogleAPI Emulator"
+        ],
+        "platform": "Android",
+        "version": ["5.1"],
+        "backendVersion": ["1.15.0"],
+        "extraCaps": "{\"automationName\": \"UiAutomator2\"}",
+        "browser": "Chrome"
+      }
+    ],
+    "config": "prod",
+    "build": "appium-smoke-%t",
+    "processes": 30
+  }

@@ -1,0 +1,45 @@
+{
+    "tests": [
+      {
+        "test": ["android", "android_hybrid", "web"],
+        "device": [
+            "Android GoogleAPI Emulator",
+            "Samsung Galaxy Tab S3 GoogleAPI Emulator",
+            "Samsung Galaxy Tab A 10 GoogleAPI Emulator",
+            "Samsung Galaxy S9 WQHD GoogleAPI Emulator",
+            "Samsung Galaxy S9 Plus WQHD GoogleAPI Emulator",
+            "Samsung Galaxy S9 Plus HD GoogleAPI Emulator",
+            "Samsung Galaxy S9 Plus FHD GoogleAPI Emulator",
+            "Samsung Galaxy S9 HD GoogleAPI Emulator",
+            "Samsung Galaxy S9 FHD GoogleAPI Emulator",
+            "Samsung Galaxy S8 WQHD GoogleAPI Emulator",
+            "Samsung Galaxy S8 Plus WQHD GoogleAPI Emulator",
+            "Samsung Galaxy S8 Plus HD GoogleAPI Emulator",
+            "Samsung Galaxy S8 Plus GoogleAPI Emulator",
+            "Samsung Galaxy S8 Plus FHD GoogleAPI Emulator",
+            "Samsung Galaxy S8 HD GoogleAPI Emulator",
+            "Samsung Galaxy S8 GoogleAPI Emulator",
+            "Samsung Galaxy S8 FHD GoogleAPI Emulator",
+            "Samsung Galaxy S7 WQHD GoogleAPI Emulator",
+            "Samsung Galaxy S7 HD GoogleAPI Emulator",
+            "Samsung Galaxy S7 GoogleAPI Emulator",
+            "Samsung Galaxy S7 FHD GoogleAPI Emulator",
+            "Samsung Galaxy S7 Edge WQHD GoogleAPI Emulator",
+            "Samsung Galaxy S7 Edge HD GoogleAPI Emulator",
+            "Samsung Galaxy S7 Edge GoogleAPI Emulator",
+            "Samsung Galaxy S7 Edge FHD GoogleAPI Emulator",
+            "Samsung Galaxy S6 GoogleAPI Emulator",
+            "Google Pixel GoogleAPI Emulator",
+            "Google Pixel C GoogleAPI Emulator"
+        ],
+        "platform": "Android",
+        "version": ["8.1"],
+        "backendVersion": ["1.15.0"],
+        "extraCaps": "{\"automationName\": \"UiAutomator2\"}",
+        "browser": "Chrome"
+      }
+    ],
+    "config": "prod",
+    "build": "appium-smoke-%t",
+    "processes": 30
+  }

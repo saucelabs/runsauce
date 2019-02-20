@@ -1,0 +1,49 @@
+{
+  "tests": [
+    {
+      "test": ["ios"],
+      "device": [
+        "iPhone Simulator",
+        "iPhone 6s Simulator",
+        "iPhone 6s Plus Simulator",
+        "iPhone 7 Simulator",
+        "iPhone 7 Plus Simulator",
+        "iPhone 8 Simulator",
+        "iPhone 8 Plus Simulator",
+        "iPhone SE (1st generation) Simulator",
+        "iPhone SE (2nd generation) Simulator",
+        "iPhone X Simulator",
+        "iPhone XS Simulator",
+        "iPhone XS Max Simulator",
+        "iPhone XR Simulator",
+        "iPhone 11 Simulator",
+        "iPhone 11 Pro Simulator",
+        "iPhone 11 Pro Max Simulator",
+        "iPad Simulator",
+        "iPad (5th generation) Simulator",
+        "iPad (6th generation) Simulator",
+        "iPad (7th generation) Simulator",
+        "iPad Air 2 Simulator",
+        "iPad Air (3rd generation) Simulator",
+        "iPad mini 4 Simulator",
+        "iPad mini (5th generation) Simulator",
+        "iPad Pro (9.7 inch) Simulator",
+        "iPad Pro (10.5 inch) Simulator",
+        "iPad Pro (11 inch) (2nd generation) Simulator",
+        "iPad Pro (11 inch) (1st generation) Simulator",
+        "iPad Pro (12.9 inch) Simulator",
+        "iPad Pro (12.9 inch) (2nd generation) Simulator",
+        "iPad Pro (12.9 inch) (3rd generation) Simulator",
+        "iPad Pro (12.9 inch) (4th generation) Simulator"
+      ],
+      "platform": "iOS",
+      "version": ["13.4"],
+      "backendVersion": ["1.17.1"],
+      "browser": "Safari",
+      "testName": "iOS_13_4_native"
+    }
+  ],
+  "config": "ktb",
+  "build": "appium-smoke-%t-iOS_13_4_native",
+  "processes": 5
+}

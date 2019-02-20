@@ -1,0 +1,45 @@
+{
+  "tests": [
+    {
+      "test": ["ios"],
+      "device": [
+        "iPhone Simulator",
+        "iPhone 6s Simulator",
+        "iPhone 6s Plus Simulator",
+        "iPhone 7 Simulator",
+        "iPhone 7 Plus Simulator",
+        "iPhone 8 Simulator",
+        "iPhone 8 Plus Simulator",
+        "iPhone SE Simulator",
+        "iPhone X Simulator",
+        "iPhone XS Simulator",
+        "iPhone XS Max Simulator",
+        "iPhone XR Simulator",
+        "iPhone 11 Simulator",
+        "iPhone 11 Pro Simulator",
+        "iPhone 11 Pro Max Simulator",
+        "iPad Simulator",
+        "iPad (5th generation) Simulator",
+        "iPad (6th generation) Simulator",
+        "iPad Air 2 Simulator",
+        "iPad Air (3rd generation) Simulator",
+        "iPad mini 4 Simulator",
+        "iPad mini (5th generation) Simulator",
+        "iPad Pro (9.7 inch) Simulator",
+        "iPad Pro (10.5 inch) Simulator",
+        "iPad Pro (11 inch) Simulator",
+        "iPad Pro (12.9 inch) Simulator",
+        "iPad Pro (12.9 inch) (2nd generation) Simulator",
+        "iPad Pro (12.9 inch) (3rd generation) Simulator"
+      ],
+      "platform": "iOS",
+      "version": ["13.0"],
+      "backendVersion": ["1.16.0"],
+      "browser": "Safari",
+      "testName": "iOS_12_hybrid"
+    }
+  ],
+  "config": "prod",
+  "build": "appium-smoke-%t",
+  "processes": 30
+}

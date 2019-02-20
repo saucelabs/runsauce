@@ -1,0 +1,23 @@
+{
+    "tests": [
+      {
+        "test": ["android", "android_hybrid", "web"],
+        "device": [
+            "Android GoogleAPI Emulator",
+            "Google Pixel 3 XL GoogleAPI Emulator",
+            "Google Pixel 3 GoogleAPI Emulator",
+            "Samsung Galaxy S9 WQHD GoogleAPI Emulator",
+            "Samsung Galaxy S9 HD GoogleAPI Emulator",
+            "Samsung Galaxy S9 FHD GoogleAPI Emulator"
+        ],
+        "platform": "Android",
+        "version": ["9.0"],
+        "backendVersion": ["1.15.0"],
+        "extraCaps": "{\"automationName\": \"UiAutomator2\"}",
+        "browser": "Chrome"
+      }
+    ],
+    "config": "prod",
+    "build": "appium-smoke-%t",
+    "processes": 30
+  }
