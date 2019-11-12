@@ -14,6 +14,8 @@ RunSauce requires Node.js version 7.6 or greater, and NPM.
 ## Install
 To run runsauce use the runsauce.js implementation in bin of this repo
 ```bash
+# In the runsauce directory
+npm install
 ./bin/runsauce.js -i <your-matrix.json>
 ```
 
