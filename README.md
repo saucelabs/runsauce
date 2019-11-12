@@ -12,11 +12,16 @@ This is probably mostly useful for people who work at
 RunSauce requires Node.js version 7.6 or greater, and NPM.
 
 ## Install
+To run runsauce use the runsauce.js implementation in bin of this repo
+```bash
+./bin/runsauce.js -i <your-matrix.json>
+```
 
+#### A deprecated method to install runsauce is documented below
 ```bash
 npm install -g runsauce2 
 ```
-
+Use at your peril
 (note that it's `runsauce2` because this is a fork of the original [runsauce](https://github.com/jlipps/runsauce))
 
 ## Configure
@@ -27,7 +32,7 @@ your environment variables if it can.
 
 ```bash
 # configure with your username / access key
-runsauce --setup
+./bin/runsauce.js --setup
 ```
 
 If you run RunSauce with `--setup` after this initial setup, you will be given the
@@ -38,21 +43,21 @@ dev environments or even local environments.
 
 ```bash
 # run a basic test with all the default options
-runsauce
+./bin/runsauce.js
 
 # check out all the options
-runsauce --help
-runsauce --tests
-runsauce --shortcuts
+./bin/runsauce.js --help
+./bin/runsauce.js --tests
+./bin/runsauce.js --shortcuts
 
 # run a test with some custom options, like a guinea pig page test on chrome on
 # linux
-runsauce -t web_guinea -b c -p l
+./bin/runsauce.js -t web_guinea -b c -p l
 
 # do something craaazy, like run a test against a self-signed https cert
 # on a custom dev server (assuming you have the config set) in Mac OS X 10.9
 # with Safari 7, doing this 10 times with a concurrency of 5 tests at a time
-runsauce -c dev -t selfsigned -p m9 -b s -v 7 -r 10 -n 5
+./bin/runsauce.js -c dev -t selfsigned -p m9 -b s -v 7 -r 10 -n 5
 ```
 
 ## Running sets of tests
@@ -222,7 +227,7 @@ detailed information about test passes and failures, including timing
 information, which can be used for later statistical purposes.
 
 ```bash
-runsauce -i tests.json -j "https://endpoint1.collection.us2.sumologic.com/...."
+./bin/runsauce.js -i tests.json -j "https://endpoint1.collection.us2.sumologic.com/...."
 ```
 
 ## Building from source
