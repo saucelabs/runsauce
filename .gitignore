@@ -5,3 +5,4 @@ appium*.json
 sauce*.json
 all-tests.json
 .DS_Store
+results/
